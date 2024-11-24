@@ -1,19 +1,13 @@
 ATS Resume Analyzer
-Overview
-The ATS Resume Analyzer is an application that helps users optimize their resumes for ATS (Applicant Tracking Systems). It evaluates a given resume against a job description, calculating the match percentage and highlighting missing keywords that would improve the resume’s chances of passing through an ATS system.
-
-The tool uses the Gemini Pro API (Google’s generative AI) to analyze and compare resumes with job descriptions, providing valuable insights and suggestions for improvement.
-
-Features
-Upload a PDF resume and paste a job description.
-Get a match percentage between the resume and job description.
-Receive missing keywords that could improve the resume for better ATS compatibility.
-Display a profile summary with recommendations for better job market competitiveness.
 
 
-Technologies Used
-Python: Programming language used to build the app.
-Streamlit: Framework used for building the web application interface.
-Google Gemini Pro API: AI used to analyze and evaluate resumes.
-PyPDF2: Library for extracting text from PDF resumes.
-dotenv: Used to securely manage API keys.
+The ATS Resume Analyzer evaluates the compatibility of a resume with a job description. It uses a generative AI model to calculate a match percentage, identify missing keywords, and generate a profile summary to help optimize resumes for Applicant Tracking Systems (ATS).
+
+How It Works:
+Upload Resume: Users upload a PDF of their resume.
+Enter Job Description: Paste the job description for the position you're interested in.
+Receive Results:
+JD Match: A percentage that shows how closely your resume matches the job description.
+Missing Keywords: A list of important keywords that are missing in your resume, which could improve its ATS compatibility.
+Profile Summary: Suggestions on how to improve the resume to increase chances of getting noticed by ATS.
+
